@@ -175,12 +175,12 @@ endfunction
 % MAIN FUNCTION
 function main  
   % UNIQUE SOLUTION - CASE #1
-  A = [-41 15 0; 109 -40 0; -3 1 0;2 0 1];
-  b = [168; -447; 12; -1];
+  %A = [-41 15 0; 109 -40 0; -3 1 0;2 0 1];
+  %b = [168; -447; 12; -1];
   
   % UNIQUE SOLUTION - CASE #2
-  %A = [1 0; 0 1];
-  %b = [1; 1];
+  A = [1 0; 0 1];
+  b = [1; 1];
   
   % NO SOLUTION - CASE #3
   %A = [1 0; 0 1; 0 0];
