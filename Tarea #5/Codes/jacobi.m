@@ -4,7 +4,7 @@
 % Tarea 5: Metodos Iterativos para Sistemas Lineales
 % Metodo de Jacobi
 
-function [ X ] = jacobi( A, b, tolerence, MaxNumOfIter )
+function X = jacobi( A, b, tolerence, MaxNumOfIter )
   [n,n] = size(A);
   Results = [];
   finished = 0;
