@@ -1,0 +1,1 @@
+% Estudiante: Naranjo Sthory Alexanyer Antonio% Cedula de identidad: V - 26.498.600% Asignatura: Calculo Cientifico (6105)% Tarea 6: El autovector de 458 billones de dolares (hasta ahora)% Inverse Iterationfunction x = inverse_iteration(I, G, D, e, p, c, n)  z = ((1-p)*(c ~= 0) + (c == 0))/n;  A = A = p*G*D + e*z;	x = (I - A)\e;	x = x/sum(x)endfunction
